@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #e0e1f2;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.card {
+  width: 55%;
+  height: 85vh;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+a {
+  color: #0501e8;
+  text-decoration: none;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.google-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  border: solid 2px #f2edec;
+  border-radius: 10px;
+  height: 3.15rem;
+  width: 85%;
+}
+
+img {
+  width: 30px;
+}
+
+.btn-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.fb-btn {
+  border: solid 2px #3a38b0;
+  border-radius: 10px;
+  width: 13%;
+  height: 3.15rem;
+  background-color: white;
+}
+
+.or {
+  border-bottom: solid 2px #f2edec;
+  text-align: center;
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+span {
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  padding: 0 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  transform: translateX(-50%);
+}
+
+.email-login {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0 1.5rem 0;
+  gap: 0.85rem;
+}
+
+b {
+  color: #a5a2a2;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+input {
+  height: 3.15rem;
+  border: solid 1px #dad9d8;
+  border-radius: 10px;
+  padding: 0 1.5rem;
+  font-size: 0.75rem;
+}
+
+.cta-btn {
+  height: 3.35rem;
+  width: 100%;
+  background-color: #4643b5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.forget-pass {
+  padding: 1rem;
+  text-align: center;
+}
